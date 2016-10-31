@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MeterView">
+        <attr name="arcColor" format="color"/>
+        <attr name="arcWidth" format="dimension"/>
+        <attr name="text" format="string"/>
+        <attr name="levelCount" format="integer"/>
+        <attr name="innerCircleColor" format="color"/>
+        <attr name="pointerColor" format="color"/>
+        <attr name="textSize" format="dimension"/>
+    </declare-styleable>
+</resources>

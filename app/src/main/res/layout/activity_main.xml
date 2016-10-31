@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:meter="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7c7200"
+    >
+
+    <com.tomato.z.meterview.MeterView
+        android:id="@+id/meterView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        meter:arcColor="#00a2ff"
+        meter:innerCircleColor="#aeafaf"
+        meter:levelCount="16"
+        meter:pointerColor="#5e5d5e"
+        meter:text="当前进度"
+        meter:textSize="25px" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/meterView" />
+
+</RelativeLayout>
